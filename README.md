@@ -5,6 +5,7 @@
 |基板|1||
 |[ダイオード(リードタイプ)](https://shop.yushakobo.jp/products/a0800di-01-100)|||
 |[ウレタンクッション](https://shop.yushakobo.jp/products/a0800ur-01-6)||滑り止めとして底面に貼ります。|
+|[ウレタンクッション(5mm厚)](https://www.yodobashi.com/product-detail/100000001003359892/)||滑り止めとして底面に貼ります。|
 |[ネジ(M2 5mm)](https://shop.yushakobo.jp/products/a0800n2?variant=37665432993953)|||
 |短いネジ(M2 6mm)|12||
 |長いネジ(M2 10mm)|12||
