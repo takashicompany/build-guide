@@ -15,3 +15,4 @@
 |[小型アナログジョイスティック](https://www.switch-science.com/products/2892?srsltid=AfmBOorPHoOU9B2cyXs_Br7kAcbDDWK3j9G4ZUs7ezuBqDBhf63sDdMf)|||
 |[キースイッチソケット(MX)](https://shop.yushakobo.jp/products/a01ps)||キースイッチの取り替えが用意になります。|
 |[キースイッチソケット(Choc)](https://shop.yushakobo.jp/products/a01ps?variant=37665172553889)||キースイッチの取り替えが用意になります。|
+|[Cherry MX互換キースイッチ](https://shop.yushakobo.jp/collections/all-switches)|||
