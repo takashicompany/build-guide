@@ -95,7 +95,7 @@ MCU(Micro Controller Unit)は簡単に説明するとキーボードの頭脳部
 スイッチプレートに保護シートがある場合は剥がしてください。アクリル板の場合は水を少量つけてピンセットで端を持つと剥がれやすいことがあります。  
 <img src = "https://github.com/takashicompany/keyboard-name-here/blob/master/images/build/070-switch-01.jpg?raw=true" width = "600px" />
 
-基板の上にスイッチプレートを載せます。
+基板の上にスイッチプレートを載せます。  
 <img src = "https://github.com/takashicompany/keyboard-name-here/blob/master/images/build/070-switch-02.jpg?raw=true" width = "600px" />
 
 キースイッチを用意します。  
