@@ -98,7 +98,7 @@
 ピンセットでダイオードを掴みながら、予備ハンダを溶かしてダイオードの片側をハンダ付けします。  
 <img src = "https://github.com/takashicompany/keyboard-name-here/blob/master/images/build/020-diode-b-04.jpg?raw=true" width = "600px" />
 
-もう片方もハンダ付けしたら完了です。
+もう片方もハンダ付けしたら完了です。  
 <img src = "https://github.com/takashicompany/keyboard-name-here/blob/master/images/build/020-diode-b-05.jpg?raw=true" width = "600px" />
 
 当キーボードではありませんが、SMDダイオードのハンダ付け手順を動画にまとめたものです。
@@ -112,7 +112,6 @@ https://user-images.githubusercontent.com/4215759/126895350-43ae4cd4-408b-4ff4-a
 ### タクタイルスイッチ
 
 基板の`[表面 | 裏面]`から取り付けます。  
-
 <img src = "https://github.com/takashicompany/keyboard-name-here/blob/master/images/build/030-reset-a-01.jpg?raw=true" width = "600px" />
 
 タクタイルスイッチの足を基板の穴に挿し込みます。  
@@ -164,6 +163,9 @@ Pro Microとコンスルーをハンダ付けします。**コンスルーと基
 
 ## 5. ファームウェアの書き込み
 
+ファームウェアのソースコードは[こちら](https://github.com/takashicompany/qmk_firmware/tree/master/keyboards/takashicompany/)です。
+
+ファームウェアを書き込んで動作チェックを行います。MCUとPCを接続してください。  
 <img src = "https://github.com/takashicompany/keyboard-name-here/blob/master/images/build/050-firmware-01.jpg?raw=true" width = "600px" />
 
 ### Pro Micro
