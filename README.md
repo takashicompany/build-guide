@@ -3,8 +3,8 @@
 ビルドガイドのテンプレートをつくるのがこのリポジトリの目的。
 
 ---
+![image](https://github.com/user-attachments/assets/5f61fd48-66ec-4989-b5de-17fe812b2177)
 
-![image]()
 
 
 # build-guide
@@ -14,10 +14,10 @@
 |画像|部品|個数|備考|
 |:--|:--|:--|:--|
 ||基板|1||
-|<img src = "https://github.com/user-attachments/assets/79aed986-e14c-405d-bb84-741b5c8830ee" width = "200px" />|[ダイオード(リードタイプ)](https://shop.yushakobo.jp/products/a0800di-01-100)|||
-|<img src = "https://github.com/user-attachments/assets/7905ab65-cbd3-40fc-ad86-46748c8f58a2" width = "200px" />|[ダイオード(SMDタイプ)](https://shop.yushakobo.jp/products/a0800di-02-100)|||
+|<img src = "https://github.com/user-attachments/assets/79aed986-e14c-405d-bb84-741b5c8830ee" width = "200px" />|[ダイオード(リードタイプ)](https://shop.yushakobo.jp/products/a0800di-01-100)||キースイッチの入力を伝達します。|
+|<img src = "https://github.com/user-attachments/assets/7905ab65-cbd3-40fc-ad86-46748c8f58a2" width = "200px" />|[ダイオード(SMDタイプ)](https://shop.yushakobo.jp/products/a0800di-02-100)||キースイッチの入力を伝達します。|
 |<img src = "https://github.com/user-attachments/assets/0e29d3a8-6f48-49ca-94f1-489cd59eb975" width = "200px" />|[タクタイルスイッチ - 2pin 3.5x6x4.3mm](https://shop.yushakobo.jp/products/a0800ts-01-1)||ファームウェアを書き込む際に使用します。|
-||[ウレタンクッション](https://shop.yushakobo.jp/products/a0800ur-01-6)||滑り止めとして底面に貼ります。|
+|<img src = "https://github.com/takashicompany/rookey/raw/master/images/build/IMG_6672.jpg?raw=true" width = "200px" />|[ウレタンクッション](https://shop.yushakobo.jp/products/a0800ur-01-6)||滑り止めとして底面に貼ります。|
 ||[ウレタンクッション(5mm厚)](https://www.yodobashi.com/product-detail/100000001003359892/)||滑り止めとして底面に貼ります。|
 ||[ネジ(M2 5mm)](https://shop.yushakobo.jp/products/a0800n2?variant=37665432993953)|||
 ||短いネジ(M2 6mm)|12||
@@ -25,13 +25,14 @@
 ||[ナット(M2)](https://shop.yushakobo.jp/products/4094)|12||
 ||[スペーサー(M2 nミリ以上)](https://shop.yushakobo.jp/products/a0800c2)|||
 |<img src = "https://github.com/takashicompany/rookey/assets/4215759/1fe9f782-f64b-4291-b03c-e1532b05013b" width = "200px" />|[Pro Micro](https://shop.yushakobo.jp/products/21)||MCU(Micro Controller Unit)というキーボードの頭脳部分です。|
-||[コンスルー](https://shop.yushakobo.jp/products/31?variant=37665714372769)|||
+|<img src = "https://github.com/user-attachments/assets/d60e4af6-f18a-495d-8f19-fe73f1f5d113" width = "200px" />|[コンスルー](https://shop.yushakobo.jp/products/31?variant=37665714372769)||MCUの交換を容易にします。無くても組み立てることは可能ですが、故障時や組み立てミスの際にリカバリーがしやすくなります。**採用を強く推奨します。**|
 ||[RP2040-Zero](https://talpkeyboard.net/items/640ea9f3072c3c538731c515)||MCU(Micro Controller Unit)というキーボードの頭脳部分です。|
-||[ロータリーエンコーダ](https://shop.yushakobo.jp/products/3762)|||
+|<img src = "https://github.com/takashicompany/rookey/raw/master/images/build/IMG_6666.jpg?raw=true" width = "200px" /> |[ロータリーエンコーダ](https://shop.yushakobo.jp/products/3762)||回転操作による入力が可能です。スクロール操作に適した部品です。|
 ||[小型アナログジョイスティック](https://www.switch-science.com/products/2892?srsltid=AfmBOorPHoOU9B2cyXs_Br7kAcbDDWK3j9G4ZUs7ezuBqDBhf63sDdMf)|||
-||[キースイッチソケット(MX)](https://shop.yushakobo.jp/products/a01ps)||キースイッチの取り替えが用意になります。|
-||[キースイッチソケット(Choc)](https://shop.yushakobo.jp/products/a01ps?variant=37665172553889)||キースイッチの取り替えが用意になります。|
-||[Cherry MX互換キースイッチ](https://shop.yushakobo.jp/collections/all-switches)|||
+|<img src = "https://github.com/user-attachments/assets/5f61fd48-66ec-4989-b5de-17fe812b2177" width = "200px" />|[キースイッチソケット(MX)](https://shop.yushakobo.jp/products/a01ps)||キースイッチの取り替えが用意になります。|
+|<img src = "https://github.com/user-attachments/assets/09106932-a3af-44f1-b0b8-81cda141178f" width = "200px" />|[キースイッチソケット(Choc)](https://shop.yushakobo.jp/products/a01ps?variant=37665172553889)||キースイッチの取り替えが用意になります。[**取り付けの際には正しい向きがあります**](https://www.eisbahn.jp/yoichiro/2021/01/kailh_choc_v1_socket.html#gsc.tab=0)のでご注意ください。|
+|<img src = "https://github.com/takashicompany/rookey/blob/master/images/build/IMG_6653.jpg?raw=true" width = "200px" />|[Cherry MX互換キースイッチ](https://shop.yushakobo.jp/collections/all-switches)|||
+|<img src = "https://github.com/takashicompany/rookey/assets/4215759/eafcac57-31fe-4c3a-829c-3cbf697e00ff" width = "200px" />|[Cherry MX軸用キーキャップ](https://shop.yushakobo.jp/collections/keycaps)|||
 
 ## 組み立てに必要な道具
 
