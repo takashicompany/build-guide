@@ -4,15 +4,19 @@
 
 ---
 
+![image]()
+
+
 # build-guide
-![image](https://github.com/user-attachments/assets/7905ab65-cbd3-40fc-ad86-46748c8f58a2)
+
+一部の画像は遊舎工房の商品サイトのものを流用させて頂いております。
 
 |画像|部品|個数|備考|
 |:--|:--|:--|:--|
 ||基板|1||
 |<img src = "https://github.com/user-attachments/assets/79aed986-e14c-405d-bb84-741b5c8830ee" width = "200px" />|[ダイオード(リードタイプ)](https://shop.yushakobo.jp/products/a0800di-01-100)|||
 |<img src = "https://github.com/user-attachments/assets/7905ab65-cbd3-40fc-ad86-46748c8f58a2" width = "200px" />|[ダイオード(SMDタイプ)](https://shop.yushakobo.jp/products/a0800di-02-100)|||
-||[タクタイルスイッチ - 2pin 3.5x6x4.3mm](https://shop.yushakobo.jp/products/a0800ts-01-1)||ファームウェアを書き込む際に使用します。|
+|<img src = "https://github.com/user-attachments/assets/0e29d3a8-6f48-49ca-94f1-489cd59eb975" width = "200px" />|[タクタイルスイッチ - 2pin 3.5x6x4.3mm](https://shop.yushakobo.jp/products/a0800ts-01-1)||ファームウェアを書き込む際に使用します。|
 ||[ウレタンクッション](https://shop.yushakobo.jp/products/a0800ur-01-6)||滑り止めとして底面に貼ります。|
 ||[ウレタンクッション(5mm厚)](https://www.yodobashi.com/product-detail/100000001003359892/)||滑り止めとして底面に貼ります。|
 ||[ネジ(M2 5mm)](https://shop.yushakobo.jp/products/a0800n2?variant=37665432993953)|||
