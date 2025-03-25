@@ -3,9 +3,6 @@
 ビルドガイドのテンプレートをつくるのがこのリポジトリの目的。
 
 ---
-![image](https://github.com/user-attachments/assets/5f61fd48-66ec-4989-b5de-17fe812b2177)
-
-
 
 # build-guide
 
