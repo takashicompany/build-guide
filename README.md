@@ -36,14 +36,14 @@
 
 ## 組み立てに必要な道具
 
-何を用意してよいか分からない方は、[こちら](https://shop.yushakobo.jp/products/a9900to)を購入するのが確実です。
+初めての方は、[こちら](https://shop.yushakobo.jp/products/a9900to)を購入するのが確実です。
 
 |道具|備考|
 |:--|:--|
 |ハンダごて|おすすめは[HAKKO FX-600](https://www.hakko.com/japan/products/hakko_fx600.html)です。[こて台](https://www.hakko.com/japan/products/hakko_kote_board.html)もあると、より作業をスムーズに進められます。|
 |ハンダ|[こちら](https://www.goot.jp/products/detail/se_06008)などを使う方が多いようです。|
 |ピンセット|100均などで手に入るものでも充分利用できるかと思います。|
-|ニッパー|100均などで手に入るものでも充分利用できるかと思いますが、1000円程度ものを買っても損では無いかと思います。|
+|ニッパー|100均などで手に入るものでも充分利用できるかと思います。|
 
 ## あるとさらに完成度が高くなる道具
 |道具|備考|
