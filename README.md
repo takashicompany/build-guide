@@ -61,6 +61,8 @@
 
 ## 2. ダイオードのハンダ付け
 
+### スルーホール
+
 基板にダイオードをハンダ付けします。ダイオードはキースイッチを押下した際に電流をMCUに伝達する役目を持ちます。  
 <img src = "https://github.com/takashicompany/keyboard-name-here/blob/master/images/build/020-diode-a-01.jpg?raw=true" width = "600px" />
 
@@ -82,9 +84,66 @@
 ハンダ付けした後にダイオードの足をニッパーなどで切ります。  
 <img src = "https://github.com/takashicompany/keyboard-name-here/blob/master/images/build/020-diode-a-07.jpg?raw=true" width = "600px" />
 
-## 3. MCUの取付け
+### SMD
+
+基板にダイオードをハンダ付けします。ダイオードはキースイッチを押下した際に電流をMCUに伝達する役目を持ちます。  
+<img src = "https://github.com/takashicompany/keyboard-name-here/blob/master/images/build/020-diode-b-01.jpg?raw=true" width = "600px" />
+
+ダイオードは基板の裏側から取付けます。ダイオードの配置箇所の「`▷|`」の縦線とダイオードの線の方向が同じになるように置きます。  
+<img src = "https://github.com/takashicompany/keyboard-name-here/blob/master/images/build/020-diode-b-02.jpg?raw=true" width = "600px" />
+
+基板のダイオードハンダ付け箇所の片方にハンダを事前に載せておきます。([予備ハンダ](https://www.p-ban.com/htmlmail_qanda/2019/12/))  
+<img src = "https://github.com/takashicompany/keyboard-name-here/blob/master/images/build/020-diode-b-03.jpg?raw=true" width = "600px" />
+
+ピンセットでダイオードを掴みながら、予備ハンダを溶かしてダイオードの片側をハンダ付けします。  
+<img src = "https://github.com/takashicompany/keyboard-name-here/blob/master/images/build/020-diode-b-04.jpg?raw=true" width = "600px" />
+
+もう片方もハンダ付けしたら完了です。
+<img src = "https://github.com/takashicompany/keyboard-name-here/blob/master/images/build/020-diode-b-05.jpg?raw=true" width = "600px" />
+
+当キーボードではありませんが、SMDダイオードのハンダ付け手順を動画にまとめたものです。
+
+https://user-images.githubusercontent.com/4215759/126895350-43ae4cd4-408b-4ff4-ab5c-2903e0420978.mov
+
+## 4. リセットスイッチの取り付け
+
+リセットスイッチはファームウェアを書き込む際に使用します。
+
+### タクタイルスイッチ
+
+基板の`[表面 | 裏面]`から取り付けます。  
+
+<img src = "https://github.com/takashicompany/keyboard-name-here/blob/master/images/build/030-reset-a-01.jpg?raw=true" width = "600px" />
+
+タクタイルスイッチの足を基板の穴に挿し込みます。  
+<img src = "https://github.com/takashicompany/keyboard-name-here/blob/master/images/build/030-reset-a-02.jpg?raw=true" width = "600px" />
+
+基板を裏返してタクタイルスイッチの足が出ていることを確認します。  
+<img src = "https://github.com/takashicompany/keyboard-name-here/blob/master/images/build/030-reset-a-03.jpg?raw=true" width = "600px" />
+
+タクタイルスイッチの足と基板をハンダ付けします。  
+<img src = "https://github.com/takashicompany/keyboard-name-here/blob/master/images/build/030-reset-a-04.jpg?raw=true" width = "600px" />
+
+
+## 4. MCUの取付け
 
 MCU(Micro Controller Unit)は簡単に説明するとキーボードの頭脳部分です。キースイッチ等の入力を処理してPC等に伝達します。  
+
+### Pro Micro
+
+Pro Microは基板の`表側|裏側`に取り付けます。  
+<img src = "https://github.com/takashicompany/keyboard-name-here/blob/master/images/build/040-pm-01.jpg?raw=true" width = "600px" />
+
+コンスルーを取り付けます。コンスルーは故障したときや組み立て手順を間違えてしまった際のリカバリーを容易にします。**使用することを強く推奨します。** 当ビルドガイドではコンスルーを用いた手順のみを公式とします。ご了承ください。 [コンスルーには向きがあります](https://zenn.dev/digitarhythm/articles/276cd44a36ed32#%E3%82%B3%E3%83%B3%E3%82%B9%E3%83%AB%E3%83%BC%E3%81%AEpromicro%E3%81%B8%E3%81%AE%E8%A3%85%E7%9D%80)ので確認の上基板に挿し込んでください。基板とのハンダ付けは不要です。  
+<img src = "https://github.com/takashicompany/keyboard-name-here/blob/master/images/build/040-pm-02.jpg?raw=true" width = "600px" />
+
+Pro Microをコンスルーに挿します。この時コンスルーのピンがPro Microから出ていることを確認します。  
+<img src = "https://github.com/takashicompany/keyboard-name-here/blob/master/images/build/040-pm-03.jpg?raw=true" width = "600px" />
+
+Pro Microとコンスルーをハンダ付けします。**コンスルーと基板はハンダ付けしないでください。**
+<img src = "https://github.com/takashicompany/keyboard-name-here/blob/master/images/build/040-pm-04.jpg?raw=true" width = "600px" />
+
+### Waveshare RP2040-Zero
 
 当キーボードでは、Waveshare RP2040-Zeroを使用します。  
 <img src = "https://github.com/user-attachments/assets/f00b9381-6d04-48e2-aeb9-90fa7b754eb1" width = "600px" />
@@ -100,6 +159,35 @@ MCU(Micro Controller Unit)は簡単に説明するとキーボードの頭脳部
 
 全部で23箇所をハンダ付けしたら完了です。  
 <img src = "https://github.com/takashicompany/keyboard-name-here/blob/master/images/build/040-rp2040-zero-05.jpg?raw=true" width = "600px" />
+
+
+
+## 5. ファームウェアの書き込み
+
+<img src = "https://github.com/takashicompany/keyboard-name-here/blob/master/images/build/050-firmware-01.jpg?raw=true" width = "600px" />
+
+### Pro Micro
+
+*以下の項目は異なるキーボードの画像を使用していますが、手順は同様です。*
+
+Pro Microにファームウェアを書き込みます。ファームウェアは[Remapから書き込む]()ことができます。
+
+<img src = "https://github.com/user-attachments/assets/b1b23ce1-76be-411c-ac60-f279fc0dc829" width = "600px" />
+
+Remapでのファームウェア書き込みは[こちら](https://docs.dailycraft.jp/buildguides/firmware/remap.html)を参照すると手順が分かりやすいかと思います。
+
+Remapの使い方は[こちら](https://salicylic-acid3.hatenablog.com/entry/remap-manual)を参照するのが分かりやすいかと思います。
+
+RemapでダイオードやPro Microが正しく動作するかを確認できます。USBでPCに接続しRemapを開いた後に、右下の3点リーダからTest Matrix modeを選択してください。  
+<img src = "https://github.com/user-attachments/assets/bbf50785-3b81-409f-b537-e246f61435c5" width = "600px" />
+
+金属製のピンセットなどで赤丸の箇所を通電させることで擬似的にキースイッチの入力を再現できます。スイッチソケットを用いない場合はキースイッチ用の穴同士をピンセットなどで通電させます。  
+<img src = "https://github.com/takashicompany/palmslave/blob/master/images/build/IMG_1006_b.jpg?raw=true" width = "600px" />
+
+全てのキースイッチが点灯するかを確認します。なお、分割型のキーボードの場合は、ファームウェアは左手側をUSBとして接続することを前提としているので、片手側のみを接続した場合は左手側が点灯します。  
+<img src = "https://github.com/user-attachments/assets/fff6db54-1183-41e4-b80f-9ce3ca1ff5d8" width = "600px" />
+
+もし点灯しないキーがあった場合はダイオードやスイッチソケットのハンダ付けを再度行うと改善することがあるかと思います。
 
 ## 6. キースイッチソケットの取付け
 
@@ -180,6 +268,13 @@ MCU(Micro Controller Unit)は簡単に説明するとキーボードの頭脳部
 スペーサーとスイッチプレートをネジで固定します。  
 <img src = "https://github.com/takashicompany/keyboard-name-here/blob/master/images/build/080-bottom-06.jpg?raw=true" width = "600px" />
 
+## 10. 滑り止めの貼り付け
+
+滑り止めとしてウレタンクッションやゴム足シールを底面に貼り付けます。  
+<img src = "https://github.com/takashicompany/keyboard-name-here/blob/master/images/build/100-01.jpg?raw=true" width = "600px" />
+
+姿勢や打鍵スタイルにあわせて滑り止めを貼ります。以下は取り付け例です。  
+<img src = "https://github.com/takashicompany/keyboard-name-here/blob/master/images/build/100-02.jpg?raw=true" width = "600px" />
 
 ### xx. 完成した後の楽しみ方
 
