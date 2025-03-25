@@ -5,24 +5,47 @@
 ---
 
 # build-guide
+![image](https://github.com/user-attachments/assets/7905ab65-cbd3-40fc-ad86-46748c8f58a2)
 
-|部品|個数|備考|
-|:--|:--|:--|
-|基板|1||
-|[ダイオード(リードタイプ)](https://shop.yushakobo.jp/products/a0800di-01-100)|||
-|[ウレタンクッション](https://shop.yushakobo.jp/products/a0800ur-01-6)||滑り止めとして底面に貼ります。|
-|[ウレタンクッション(5mm厚)](https://www.yodobashi.com/product-detail/100000001003359892/)||滑り止めとして底面に貼ります。|
-|[ネジ(M2 5mm)](https://shop.yushakobo.jp/products/a0800n2?variant=37665432993953)|||
-|短いネジ(M2 6mm)|12||
-|長いネジ(M2 10mm)|12||
-|[ナット(M2)](https://shop.yushakobo.jp/products/4094)|12||
-|[スペーサー(M2 nミリ以上)](https://shop.yushakobo.jp/products/a0800c2)|||
-|[RP2040-Zero](https://talpkeyboard.net/items/640ea9f3072c3c538731c515)|||
-|[ロータリーエンコーダ](https://shop.yushakobo.jp/products/3762)|||
-|[小型アナログジョイスティック](https://www.switch-science.com/products/2892?srsltid=AfmBOorPHoOU9B2cyXs_Br7kAcbDDWK3j9G4ZUs7ezuBqDBhf63sDdMf)|||
-|[キースイッチソケット(MX)](https://shop.yushakobo.jp/products/a01ps)||キースイッチの取り替えが用意になります。|
-|[キースイッチソケット(Choc)](https://shop.yushakobo.jp/products/a01ps?variant=37665172553889)||キースイッチの取り替えが用意になります。|
-|[Cherry MX互換キースイッチ](https://shop.yushakobo.jp/collections/all-switches)|||
+|画像|部品|個数|備考|
+|:--|:--|:--|:--|
+||基板|1||
+|<img src = "https://github.com/user-attachments/assets/79aed986-e14c-405d-bb84-741b5c8830ee" width = "200px" />|[ダイオード(リードタイプ)](https://shop.yushakobo.jp/products/a0800di-01-100)|||
+|<img src = "https://github.com/user-attachments/assets/7905ab65-cbd3-40fc-ad86-46748c8f58a2" width = "200px" />|[ダイオード(SMDタイプ)](https://shop.yushakobo.jp/products/a0800di-02-100)|||
+||[タクタイルスイッチ - 2pin 3.5x6x4.3mm](https://shop.yushakobo.jp/products/a0800ts-01-1)||ファームウェアを書き込む際に使用します。|
+||[ウレタンクッション](https://shop.yushakobo.jp/products/a0800ur-01-6)||滑り止めとして底面に貼ります。|
+||[ウレタンクッション(5mm厚)](https://www.yodobashi.com/product-detail/100000001003359892/)||滑り止めとして底面に貼ります。|
+||[ネジ(M2 5mm)](https://shop.yushakobo.jp/products/a0800n2?variant=37665432993953)|||
+||短いネジ(M2 6mm)|12||
+||長いネジ(M2 10mm)|12||
+||[ナット(M2)](https://shop.yushakobo.jp/products/4094)|12||
+||[スペーサー(M2 nミリ以上)](https://shop.yushakobo.jp/products/a0800c2)|||
+|<img src = "https://github.com/takashicompany/rookey/assets/4215759/1fe9f782-f64b-4291-b03c-e1532b05013b" width = "200px" />|[Pro Micro](https://shop.yushakobo.jp/products/21)||MCU(Micro Controller Unit)というキーボードの頭脳部分です。|
+||[コンスルー](https://shop.yushakobo.jp/products/31?variant=37665714372769)|||
+||[RP2040-Zero](https://talpkeyboard.net/items/640ea9f3072c3c538731c515)||MCU(Micro Controller Unit)というキーボードの頭脳部分です。|
+||[ロータリーエンコーダ](https://shop.yushakobo.jp/products/3762)|||
+||[小型アナログジョイスティック](https://www.switch-science.com/products/2892?srsltid=AfmBOorPHoOU9B2cyXs_Br7kAcbDDWK3j9G4ZUs7ezuBqDBhf63sDdMf)|||
+||[キースイッチソケット(MX)](https://shop.yushakobo.jp/products/a01ps)||キースイッチの取り替えが用意になります。|
+||[キースイッチソケット(Choc)](https://shop.yushakobo.jp/products/a01ps?variant=37665172553889)||キースイッチの取り替えが用意になります。|
+||[Cherry MX互換キースイッチ](https://shop.yushakobo.jp/collections/all-switches)|||
+
+## 組み立てに必要な道具
+
+何を用意してよいか分からない方は、[こちら](https://shop.yushakobo.jp/products/a9900to)を購入するのが確実です。
+
+|道具|備考|
+|:--|:--|
+|ハンダごて|おすすめは[HAKKO FX-600](https://www.hakko.com/japan/products/hakko_fx600.html)です。[こて台](https://www.hakko.com/japan/products/hakko_kote_board.html)もあると、より作業をスムーズに進められます。|
+|ハンダ|[こちら](https://www.goot.jp/products/detail/se_06008)などを使う方が多いようです。|
+|ピンセット|100均などで手に入るものでも充分利用できるかと思います。|
+|ニッパー|100均などで手に入るものでも充分利用できるかと思いますが、1000円程度ものを買っても損では無いかと思います。|
+
+## あるとさらに完成度が高くなる道具
+|道具|備考|
+|:--|:--|
+|棒ヤスリ|基板の縁にあるバリを削るのに使います。|
+|サインペン|基板の縁を塗るとより美しくなります。|
+|マスキングテープ|キースイッチをハンダ付けする際に役立ちます。|
 
 # 組み立て方
 
